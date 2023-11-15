@@ -482,7 +482,8 @@ main {
 .link:hover {
   background: #c0c0c0;
 }
-.card-link span {
+.card-link span,
+.link span {
   color: #000;
   font-family: Poppins;
   font-size: 15px;
@@ -769,20 +770,24 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 @media (max-width: 991.98px) {
   .past-clients {
     margin-top: 80px;
+    margin-bottom: 80px;
   }
 }
 @media (max-width: 767.98px) {
   .past-clients {
     margin-top: 60px;
+    margin-bottom: 60px;
   }
 }
 @media (max-width: 523.98px) {
   .past-clients {
     margin-top: 40px;
+    margin-bottom: 40px;
   }
 }
 .past-clients__container {
